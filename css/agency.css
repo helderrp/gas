@@ -234,15 +234,16 @@ fieldset[disabled] .btn-xl.active {
 
 @media (min-width: 768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 8px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #005d49;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-default .navbar-brand {
+
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -253,14 +254,14 @@ fieldset[disabled] .btn-xl.active {
         border-radius: 3px;
     }
 
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #005d49;
-    }
+    /*.navbar-default.navbar-shrink {*/
+        /*padding: 10px 0;*/
+        /*background-color: #005d49;*/
+    /*}*/
 
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
+    /*.navbar-default.navbar-shrink .navbar-brand {*/
+        /*font-size: 1.5em;*/
+    /*}*/
 }
 
 header {
@@ -330,7 +331,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 section h2.section-heading {
@@ -726,7 +727,7 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
